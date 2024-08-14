@@ -51,11 +51,3 @@ The `create_labels_csv` function generates a CSV file with image paths and their
 - Compiles a list of file paths and labels.
 - Saves this information into a CSV file for easy use in machine learning tasks.
 
-### 7. **Generate Unseen Dataset**
-
-The code segment for generating an unseen dataset follows a similar structure to the primary dataset generation:
-
-- **Parameters**: It uses a different output directory and adjusts the parameters for the unseen images.
-- **Image Generation**: Shapes are created with slightly different sizes or positions to simulate unseen data variations.
-- **CSV Creation**: Labels are created for the unseen images in the same manner as for the primary dataset.
-
